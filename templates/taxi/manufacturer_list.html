@@ -6,6 +6,7 @@
         class="btn btn-success"
         href="{% url 'taxi:manufacturer-create' %}">+ Add manufacturer
   </a>
+  <a href="{% url 'taxi:manufacturer-list' %}" class="btn btn-secondary">Cancel</a>
     {% if manufacturer_list %}
       <table class="table">
         <tr>

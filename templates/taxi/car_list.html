@@ -5,6 +5,7 @@
         class="btn btn-success"
         href="{% url 'taxi:car-create' %}"
 >+ Add car
+<a href="{% url 'taxi:car-list' %}" class="btn btn-secondary">Cancel</a>
 </a>
   {% if car_list %}
     <ul>
